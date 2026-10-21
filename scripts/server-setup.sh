@@ -3,7 +3,7 @@
 # После git clone: sudo bash scripts/server-setup.sh
 set -euo pipefail
 
-REPO="${GIT_REPO:-https://github.com/sharagulov/english-teacher.git}"
+REPO="${GIT_REPO:-https://github.com/two-lifes/english-teacher.git}"
 APP_DIR="${APP_DIR:-/opt/lexio}"
 BRANCH="${DEPLOY_BRANCH:-release-server}"
 
