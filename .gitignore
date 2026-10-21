@@ -26,6 +26,7 @@ logs/
 .DS_Store
 Thumbs.db
 .idea/
+.cursor/
 .vscode/*
 !.vscode/extensions.json
 *.tsbuildinfo
