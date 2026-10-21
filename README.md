@@ -1,5 +1,29 @@
 # Lexio
 
+Full-stack English vocabulary trainer with spaced repetition, adaptive word pools, and OpenAI-powered exercises.
+
+**Демо:** `<ссылка>`
+
+## Стек
+
+| Слой | Технологии |
+| --- | --- |
+| Runtime | Node.js ≥ 20.11 |
+| Frontend | React 19.2, Vite 8.2, Tailwind CSS 4.3, TypeScript 5.9 |
+| Backend | Fastify 5.12, Prisma 7.10, SQLite (`better-sqlite3`) |
+| AI | OpenAI API (`openai` 7.8), structured JSON outputs |
+
+## Скриншоты
+
+Добавьте PNG в `docs/screenshots/` (пути ниже — для вставки в README):
+
+| Экран | Файл |
+| --- | --- |
+| Обзор / дашборд | `docs/screenshots/dashboard.png` |
+| Тренажёр слов | `docs/screenshots/practice.png` |
+| Задания ИИ | `docs/screenshots/ai-tasks.png` |
+| Статистика | `docs/screenshots/stats.png` |
+
 Минималистичный тренажёр английского: интервальное повторение словаря, три режима
 отбора слов в пулле (с настройкой направления и формата ответа) и задания от OpenAI
 с проверкой ответов и разбором ошибок.
