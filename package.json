@@ -19,10 +19,12 @@
     "db:examples": "npm run db:examples --workspace backend",
     "db:reset": "npm run db:reset --workspace backend",
     "db:studio": "npm run db:studio --workspace backend",
-    "typecheck": "npm run typecheck --workspace backend && npm run typecheck --workspace frontend"
+    "typecheck": "npm run typecheck --workspace backend && npm run typecheck --workspace frontend",
+    "screenshots": "tsx scripts/screenshots.ts"
   },
   "devDependencies": {
-    "concurrently": "^9.2.1"
+    "concurrently": "^9.2.1",
+    "playwright": "^1.64.1"
   },
   "engines": {
     "node": ">=20.11"

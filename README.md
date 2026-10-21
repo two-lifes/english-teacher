@@ -15,14 +15,27 @@ Full-stack English vocabulary trainer with spaced repetition, adaptive word pool
 
 ## Скриншоты
 
-Добавьте PNG в `docs/screenshots/` (пути ниже — для вставки в README):
+Снимаются скриптом `npm run screenshots` (Playwright, 1440×900, светлая тема).
 
-| Экран | Файл |
-| --- | --- |
-| Обзор / дашборд | `docs/screenshots/dashboard.png` |
-| Тренажёр слов | `docs/screenshots/practice.png` |
-| Задания ИИ | `docs/screenshots/ai-tasks.png` |
-| Статистика | `docs/screenshots/stats.png` |
+**Обзор / дашборд**
+
+![Обзор](docs/screenshots/dashboard.png)
+
+**Тренажёр слов**
+
+![Тренажёр слов](docs/screenshots/practice.png)
+
+**Словарь**
+
+![Словарь](docs/screenshots/dictionary.png)
+
+**Статистика**
+
+![Статистика](docs/screenshots/stats.png)
+
+**Награды**
+
+![Награды](docs/screenshots/rewards.png)
 
 Минималистичный тренажёр английского: интервальное повторение словаря, три режима
 отбора слов в пулле (с настройкой направления и формата ответа) и задания от OpenAI
