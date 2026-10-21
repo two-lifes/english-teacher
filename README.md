@@ -177,7 +177,7 @@ npm start          # Fastify отдаёт API и собранный фронте
 **2. Первый раз на Ubuntu 22.04/24.04** (от root):
 
 ```bash
-git clone https://github.com/sharagulov/english-teacher.git /opt/lexio
+git clone https://github.com/two-lifes/english-teacher.git /opt/lexio
 cd /opt/lexio
 sudo bash scripts/server-setup.sh
 # отредактируйте /opt/lexio/backend/.env (JWT_SECRET, CORS_ORIGIN, OPENAI_API_KEY)
